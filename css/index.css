@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Great+Vibes&display=swap');
+
+header .logo {
+    font-family: font-family: 'Courgette', cursive;
+}
+
+header .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
