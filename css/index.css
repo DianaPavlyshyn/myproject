@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Great+Vibes&display=swap');
 
+:root {
+    font-family:'Courgette';
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
 header .menu {
-    font-family: font-family: 'Courgette', cursive;
-    font-size: 2rem;
+    font-family:'Courgette';
+    font-size: 1.5rem;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -13,12 +21,14 @@ header .menu {
 }
 
 header .menu a {
-     text-transform: uppercase;
+    text-transform: uppercase;
     text-decoration: none;
     color:antiquewhite;
+    border: 1px solid transparent;
+    padding: 5px;
 }
 .logo {
-    font-family: font-family: 'Courgette', cursive;
+    font-family:'Courgette';
     color:antiquewhite;
     margin: 0;
     background-image: url(img/product.jpg);
@@ -29,6 +39,52 @@ header .menu a {
     flex-direction: column;
 }
 #logot {
-  font-size: 2rem;
-   text-align: left;
+  font-family:'Courgette';
+  font-size: 3rem;
+  text-align: left;
+}
+
+.text1 {
+ font-size: 2rem;
+  text-align: center;
+
+}
+#contactform {
+    font-family:'Courgette';
+    font-size: 1rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    min-height: 40px;
+    background-size: cover;
+    text-decoration: none;
+    color:antiquewhite;
+}
+#contact {
+    font-family:'Courgette';
+    font-size: 1rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    min-height: 40px;
+    background-size: cover;
+    text-decoration: none;
+    color:antiquewhite;
+}
+.logo1 {
+    font-family:'Courgette';
+    color:rgb(252, 243, 231);
+    margin: 0;
+    background-image: url(img/prod.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
 }
