@@ -27,25 +27,16 @@ header .menu a {
     border: 1px solid transparent;
     padding: 5px;
 }
-.logo {
-    font-family:'Courgette';
-    color:antiquewhite;
-    margin: 0;
-    background-image: url(img/product.jpg);
-    min-height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-}
+
 #logot {
   font-family:'Courgette';
   font-size: 3rem;
   text-align: left;
+  color:rgb(243, 237, 229);
 }
 
-.text1 {
- font-size: 2rem;
+.articletext {
+ font-size: 1rem;
   text-align: center;
 
 }
@@ -58,7 +49,7 @@ header .menu a {
     padding: 0;
     margin: 0;
     background-color: black;
-    min-height: 40px;
+    min-height: 50px;
     background-size: cover;
     text-decoration: none;
     color:antiquewhite;
@@ -72,20 +63,47 @@ header .menu a {
     padding: 0;
     margin: 0;
     background-color: black;
-    min-height: 40px;
+    min-height: 50px;
     background-size: cover;
     text-decoration: none;
     color:antiquewhite;
 }
-.logo1 {
+
+#txt {
     font-family:'Courgette';
-    color:rgb(252, 243, 231);
-    margin: 0;
-    background-image: url(img/prod.jpg);
-    min-height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
+    font-size: 3rem;
+    text-align: center;
 }
 
+#school {
+    width: 970px;
+    height: 550px;
+}
+
+#carouselimg {
+   height: 500px;
+}
+.recipies{
+    text-align: left;
+}
+div .rec h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0px 30px 0px;
+}
+
+div .rec p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 30px 0px 30px 0px;
+}
+
+div .rec-button {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+#courses {
+    height: 200px;
+    width: 200px;
+}
